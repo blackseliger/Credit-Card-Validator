@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.creditCardValidator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.form {
+    width: 800px;
+}
+
+.collageCards {
+    display: flex;
+
+}
+
+.cardImg {
+    margin-bottom: 10px;
+    width: 15%;
+    height: 30px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.dinnerClub {
+    background-image: url('/src/img/dinersclub.png');
+}
+
+.jcb {
+    background-image: url('/src/img/jcb.png');
+}
+
+.masterCard {
+    background-image: url('/src/img/mastercard_curved.png');
+}
+
+.mir {
+    background-image: url('/src/img/card-pic.png');
+}
+
+.visa {
+    background-image: url('/src/img/visa_curved.png');
+}
+
+.opacityImg {
+    opacity: 0.5;
+}
+
+.form-input {
+    display: flex;
+    vertical-align: top;
+}
+
+
+
+.form-button, .field {
+    margin-left: 10px;
+}
+
+.button {
+    border: none;
+    font-weight: 500;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: lightcoral;
+}
