@@ -7,20 +7,25 @@
 </head>
 <body>
     <div class="CreditCardsForm">
-        <form action="" class="creditCardValidator">
+        <form action="" class="creditCardValidator" data-id="form-validation">
             <div class="form">
                 <div class="collageCards">
-                    <div class="cardImg dinnerClub opacityImg"></div>
+                    <div class="cardImg discover opacityImg"></div>
                     <div class="cardImg jcb opacityImg"></div>
                     <div class="cardImg masterCard opacityImg"></div>
                     <div class="cardImg mir opacityImg"></div>
                     <div class="cardImg visa opacityImg"></div>
                 </div>
                 <div class="form-input">
-                    <span class="formHint">Введите номер карты</span>
-                    <input type="text" class="field" placeholder="1111...">
+                    <label>
+                        <span class="formHint">Введите номер карты</span>
+                        <input type="text" class="field" data-id="card-input" placeholder="1111...">
+                    </label>
+                    <div class="blockMessageValid">
+                        <span class="validMessage hiddenValid" data-id=""></span>
+                    </div>
                     <div class="form-button">
-                        <button class="button">Подтвердить</button>
+                        <button class="button" data-id="form-button">Подтвердить</button>
                     </div>
                 </div>
             </div>

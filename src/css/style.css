@@ -30,8 +30,8 @@ body {
     
 }
 
-.dinnerClub {
-    background-image: url('/src/img/dinersclub.png');
+.discover {
+    background-image: url('/src/img/card_discover.png');
 }
 
 .jcb {
@@ -56,13 +56,23 @@ body {
 
 .form-input {
     display: flex;
-    vertical-align: top;
+    vertical-align: auto;
 }
-
-
 
 .form-button, .field {
     margin-left: 10px;
+}
+
+.blockMessageValid {
+    margin: 0 5px
+}
+
+.valid , .invalid {
+    text-transform: uppercase;
+}
+
+.hiddenValid{
+    display: none;
 }
 
 .button {
