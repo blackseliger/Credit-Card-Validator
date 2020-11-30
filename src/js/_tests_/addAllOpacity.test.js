@@ -7,7 +7,7 @@ describe('work func addAllOpacity', () => {
   test('should add class opacityImg every element', () => {
     addAllOpacity();
     const expected = true;
-    const received = cardImg[1].classList.contains('opacityImg');
-    expected(received).tobeEqual(expected);
+    const received = cardImg.every( (element) => element.classList.contains('opacityImg'));
+    expect(received).toEqual(expected);
   });
 });

@@ -38,7 +38,7 @@ describe('Credit Card Validator form', () => {
     const form = await page.$('[data-id="form-validation"]');
     const input = await form.$('[data-id="card-input"]');
     await input.type('4111111111111111');
-    const button = await page.$('[data-id="form-button]');
+    const button = await page.$('[data-id="form-button"]');
     button.click();
     await page.waitForSelector('[data-id="valid"]');
   });
@@ -47,7 +47,7 @@ describe('Credit Card Validator form', () => {
     const form = await page.$('[data-id="form-validation"]');
     const input = await form.$('[data-id="card-input"]');
     await input.type('4286550011117820');
-    const button = await page.$('[data-id="form-button]');
+    const button = await page.$('[data-id="form-button"]');
     button.click();
     await page.waitForSelector('[data-id="invalid"]');
   });

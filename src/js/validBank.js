@@ -9,17 +9,18 @@ const validBank = function(inputCard) {
     if (Object.prototype.hasOwnProperty.call(firstNumberCard, element)) {
       for (let i = 0; i < firstNumberCard[element].length; i++) {
         const arrayElement = firstNumberCard[element][i];
-        // eslint-disable-next-line max-len
         if (arrayElement === Number(inputCard.slice(0, 2)) || arrayElement === Number(inputCard.slice(0, 1))) {
           addAllOpacity();
           const cardName = document.querySelector(`.${element}`);
+          console.log(cardName);
           cardName.classList.remove('opacityImg');
           return element;
         }
-        return 0;
+        // return "0";
       }
     }
   }
+  return "0";
 };
 
 export default validBank;

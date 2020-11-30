@@ -4,6 +4,7 @@
 import luhnNumber from './luhnNumber';
 import { validation, validHIde } from './validMessage';
 import validBank from './validBank';
+import addAllOpacity from './addAllOpacity';
 
 const cardButton = document.querySelector('.button');
 const fieldCard = document.querySelector('.field');
@@ -22,3 +23,4 @@ cardButton.addEventListener('click', (e) => {
     }
   }
 });
+
