@@ -1,4 +1,3 @@
-import validBank from "./validBank";
 
 const validMessage = document.querySelector('.validMessage');
 
