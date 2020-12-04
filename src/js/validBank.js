@@ -12,10 +12,11 @@ const validBank = function(inputCard) {
         const arrayElement = firstNumberCard[element][i];
         if (arrayElement === Number(inputCard.slice(0, 2)) || arrayElement === Number(inputCard.slice(0, 1))) {
           addAllOpacity();
-          console.log(element);
+          const test1 = document.querySelector('.discover');
+          console.log(test1);
           const cardName = document.querySelector(`[data-id="${element}"]`)
-          // const cardName = document.querySelector(`.${element}`);
           console.log(cardName);
+          // const cardName = document.querySelector(`.${element}`);
           cardName.classList.remove('opacityImg');
           return element;
         }
