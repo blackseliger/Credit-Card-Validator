@@ -1,5 +1,5 @@
-# Beat Blade
-[![Build status](https://ci.appveyor.com/api/projects/status/rmy4stjbfd3lbnfn?svg=true)](https://ci.appveyor.com/project/blackseliger/beat-blade)
+# Card Validator
+[![Build status](https://ci.appveyor.com/api/projects/status/6n7oivjmqt2wbpfm?svg=true)](https://ci.appveyor.com/project/blackseliger/credit-card-validator)
 
 **Important!**
 
@@ -11,7 +11,7 @@
 
 ## Preview
 
-[![preview](./preview.png)](https://project-structure/)
+![preview](./preview.png)
 
 ## Tech stack
 
